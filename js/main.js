@@ -19,6 +19,8 @@
  
 /*lazyload*/
   $(function() {
-        $('.lazy').Lazy();
+        $('.lazy').Lazy({
+             effect: 'fadeIn',
+        });
     });
            
