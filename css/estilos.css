@@ -1,4 +1,101 @@
- 
+/*fuentes*/
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&display=swap');
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat:200,400,500&display=swap');
+
+.font1{
+    font-family: 'Montserrat', regular ;
+    font-size: 12.5px         
+}
+.font2{
+    font-family: 'Open Sans', semi-bold ;
+    font-size: 18px;
+    font-weight:600  
+}
+.font3{
+    font-size: 15px
+}
+.font4{
+     font-family: 'Montserrat',extra-light;
+     font-size: 111.73px;
+     font-weight:200 
+}
+.font5{
+    font-family: 'Montserrat',extra-light;
+    font-size: 44.78px;
+    font-weight:200 
+}
+.font6{
+    font-family: 'Open Sans', light ;
+    font-size: 18.97px;
+    font-weight:300
+}
+.font7{
+    font-family: 'Open Sans', regular  ;
+    font-size: 12.33px 
+}
+.font8{
+    font-family: 'Montserrat', extra-light  ;
+    font-size: 70px;
+    font-weight:200    
+}
+.font9{
+   font-family: 'Montserrat', regular;
+    font-weight: 400
+}
+.font10{
+    font-family: 'Open Sans', light ;
+    font-weight: 300;
+    font-size: 22.99px
+}
+.font11{
+    font-family: 'Open Sans', regular ;
+    font-size: 16px;
+    font-weight: 400;
+}
+.font12{
+    font-family: 'Montserrat', extra-light  ;
+    font-size: 80px;
+    font-weight:200   
+}
+.font13{
+    font-family: 'Montserrat', medium;
+    font-size: 34px;
+    font-weight:500
+}
+.font14{
+    font-family: 'Open Sans', regular ;
+    font-size: 16px;
+}
+.font15{
+    font-family: 'Open Sans', regular ;
+    font-size: 20px;
+}
+.font16{
+    font-family: 'Open Sans', light ;
+    font-size: 40px;
+    font-weight: 300;
+}
+.font17{
+    font-family: 'Open Sans', light ;
+    font-size: 16px;
+    font-weight: 300;
+}
+.font18{
+    font-family: 'Open Sans', regular ;
+    font-size: 13.5px
+}
+.font19{
+    font-family: 'Open Sans', bold ;  
+    font-size: 10.5px;
+    font-weight: 700;       
+}
+.font20{
+    font-family: 'Open Sans', bold ;
+    font-size: 10.96px;
+    font-weight: 700;
+}
 /*padding cero*/
 .row .col{
     padding: 0;
@@ -28,17 +125,16 @@
     margin: 0
 }
 .title_history{
-    font-size: 70px;
+
     margin: 0
 
 }
 h4{
-    font-size: 22.99px;
     text-align: justify;
 
 }
 .parra_history{
-    font-size: 16px;
+    
     text-align: justify;  
 }
  
@@ -101,7 +197,6 @@ h4{
 }
  
 .subtitle{
-   font-size: 80px;
     color: white;
     position: relative;
     z-index: 2
@@ -114,11 +209,9 @@ h4{
 }
 
 .sub_expe{
-  font-size: 34px  ;
     color: white;
 }
 .sub_expe2{
-    font-size: 16;
     color: white;
 }
 /*footer*/
@@ -140,7 +233,6 @@ h4{
 }
 .size_button{
     text-align: center; 
-    padding: 16px 0 10px !important ;
     position: relative;
     z-index: 2
 }
@@ -172,3 +264,12 @@ h4{
 #map{
     height: 255px
 }
+/*respondive tittle our experience*/
+@media(max-width:1200px){
+    .subtitle{
+        font-size: 60px 
+ }
+@media(max-width:800px){
+    .subtitle{
+        font-size: 50px 
+ } 
